@@ -2,10 +2,6 @@
 ;; DECENTRALIZED SCIENTIFIC PUBLICATION PLATFORM
 ;; ===========================================
 
-;; ===========================================
-;; Contract 1: Scientific Papers & Reviews
-;; File: contracts/scientific-papers.clar
-;; ===========================================
 
 ;; Constants
 (define-constant CONTRACT-OWNER tx-sender)
@@ -244,10 +240,6 @@
     none)
 )
 
-;; ===========================================
-;; Contract 2: Research Tokens & Funding
-;; File: contracts/research-token.clar
-;; ===========================================
 
 ;; Import the scientific papers contract (assuming it's deployed)
 ;; (use-trait scientific-papers-trait .scientific-papers)
